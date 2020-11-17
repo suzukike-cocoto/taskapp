@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		EC7A62A1255B737600301F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7A62A0255B737600301F11 /* Assets.xcassets */; };
 		EC7A62A4255B737600301F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7A62A2255B737600301F11 /* LaunchScreen.storyboard */; };
 		EC7A62AC255B7B2200301F11 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A62AB255B7B2200301F11 /* InputViewController.swift */; };
+		EC7A62AE255B87F600301F11 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A62AD255B87F600301F11 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EC7A62A3255B737600301F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7A62A5255B737600301F11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7A62AB255B7B2200301F11 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		EC7A62AD255B87F600301F11 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		FC3221FB05C52087C5F9812C /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,13 +60,13 @@
 				FC3221FB05C52087C5F9812C /* Pods-taskapp.debug.xcconfig */,
 				D82E1877E0CC81319219E3DC /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		EC7A628B255B737300301F11 = {
 			isa = PBXGroup;
 			children = (
+				EC7A62AD255B87F600301F11 /* Task.swift */,
 				EC7A6296255B737300301F11 /* taskapp */,
 				EC7A6295255B737300301F11 /* Products */,
 				A49FC067B2EF59385F678773 /* Pods */,
@@ -212,6 +214,7 @@
 			files = (
 				EC7A629C255B737300301F11 /* ViewController.swift in Sources */,
 				EC7A6298255B737300301F11 /* AppDelegate.swift in Sources */,
+				EC7A62AE255B87F600301F11 /* Task.swift in Sources */,
 				EC7A629A255B737300301F11 /* SceneDelegate.swift in Sources */,
 				EC7A62AC255B7B2200301F11 /* InputViewController.swift in Sources */,
 			);
